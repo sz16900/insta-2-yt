@@ -13,7 +13,7 @@ import { HomeIcon } from '@heroicons/react/24/solid';
 function Header() {
   return (
     <div className="shadow-sm border-b bg-white sticky top-0 z-50">
-      <div className="flex justify-between max-w-6xl mx-5 xl:mx-auto">
+      <div className="flex items-center justify-between max-w-6xl mx-5 xl:mx-auto">
         {/* Left */}
         <div className="relative hidden lg:inline-grid w-24 cursor-pointer">
           <Image
@@ -31,7 +31,7 @@ function Header() {
         </div>
         {/* Middle Seaerch Field*/}
         <div className="max-w-xs">
-          <div className="relative mt-1 p-3">
+          <div className="relative mt-1 p-3 rounded-r-md">
             <div className="absolute inset-y-0 pl-3 flex items-center pointer-events-none">
               <MagnifyingGlassIcon className="h-5 w-5 text-gray-500 " />
             </div>
